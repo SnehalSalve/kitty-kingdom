@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitty Kingdom - Home</title>
+    <link rel="stylesheet" href="ss.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kitty Kingdom</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+      <main>
+        <section id="home">
+          <div class="container">
+            <p>Welcome to Kitty Kingdom, where all cats are royalty!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet quam at ante semper, a gravida metus pretium. Ut id sollicitudin libero. Ut id eros nec felis consectetur mollis ac a tellus. Sed eget justo vitae tortor scelerisque rutrum ac et elit. Donec sed est sit amet dolor scelerisque sodales. Vivamus a lorem ultrices, varius dolor sit amet, cursus orci. Sed eget augue ullamcorper, eleifend arcu sed, faucibus ligula.</p>
+          </div>
+        </section>
+        <section id="home">
+            <!-- <h2>Home</h2> -->
+            <p >Welcome to Kitty Kingdom, where all cats are royalty!</p>
+            <section>
+              <h2 style="text-align:center;">Cat Lists</h2>
+              <h3 >Things cats love:</h3>
+              <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+              </ul>
+    
+              <figure>
+                <img src="./img/c.jpg" alt="A slice of lasagna on a plate.">
+                <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+              </figure>
+              <h3>Top 3 things cats hate:</h3>
+              <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+              </ol>
+              <figure>
+                <img src="img/cg2.jpg" alt="Five cats looking around a field.">
+                <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+              </figure>
+            </section>
+          </section>
+          <section id="about">
+            <h2>About Cats</h2>
+            <p>We are passionate cat lovers dedicated to promoting the well-being of all felines.</p>
+            <p>
+              <h3>History and Domestication:</h3>
+                Cats have a long history of association with humans, dating back thousands of years to ancient Egypt, where they were revered as sacred animals.
+                Domestic cats are believed to have descended from the African wildcat (Felis silvestris lybica), which was domesticated around 9,000 years ago.
+                
+                <h3>Physical Characteristics:</h3>
+                Cats come in various breeds, each with its own unique characteristics in terms of size, coat length, color, and pattern.
+                They typically have a slender body, retractable claws, keen senses (especially sight and hearing), and a flexible spine, which allows for incredible agility and acrobatics.
+                
+                <h3>Behavior:</h3>
+                Cats are known for their independent and solitary nature, but they also form strong bonds with their human companions.
+                They are crepuscular animals, meaning they are most active during dawn and dusk, but they can adapt to various schedules.
+                Cats exhibit a wide range of behaviors, including hunting, grooming, kneading (kneading with their paws), purring, and vocalizations such as meowing, purring, and hissing.
+               
+                <h3> Habitat:</h3>
+                Domestic cats can adapt to various environments, from urban apartments to rural farms.
+                They are skilled hunters and have been introduced to many parts of the world, often becoming invasive species in some ecosystems.
+                
+                <h3>Health and Care:</h3>
+                Proper nutrition, regular veterinary care, and a safe environment are essential for a cat's health and well-being.
+                Cats are obligate carnivores, meaning they require a diet rich in animal protein. Commercial cat food or a balanced homemade diet can meet their nutritional needs.
+                Regular grooming, including brushing their coat and trimming their nails, helps keep cats healthy and comfortable.
+                
+                <h3>Pop Culture and Symbolism:</h3>
+                Cats have been featured prominently in art, literature, folklore, and popular culture throughout history.
+                They are often associated with traits such as mystery, independence, curiosity, and agility.
+                In many cultures, cats are considered symbols of good luck, guardianship, and wisdom.
+            </p>
+          </section>
+    
+          <section id="gallery">
+            <!-- <h2>Gallery</h2> -->
+            
+              <h2>Cat Photos</h2>
+              <!-- TODO: Add link to cat photos -->
+              <p>See more <a target="_blank" href="group-img.html">cat photos</a> in our gallery.</p>
+          
+                <!-- <img src="" alt="A cute orange cat lying on its back."></a> -->
+            
+            <div class="gallery">
+              <img src="./img/c1.jpg" alt="">
+              <img src="./img/c3.jpg" alt="">
+              <img src="./img/c2.jpg" alt="">
+              <img src="./img/c4.jpg" alt="">
+              <img src="./img/c5.jpg" alt="">
+              <img src="./img/c4.jpg" alt="">
+           
+            </div>
+          </section>
+          
+          <section id="contact">
+            <h2>Cat Form</h2>
+              <form action="">
+                <fieldset>
+                  <legend>Is your cat an indoor or outdoor cat?</legend>
+                  <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+                  <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+                </fieldset>
+    
+                <fieldset>
+                  <legend>What's your cat's personality?</legend>
+                  <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+                  <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+                  <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+                </fieldset><br>
+                <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+                <button type="submit">Submit</button>
+              </form>
+          </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kitty Kingdom</p>
+            <p>For inquiries, email us at <a href="mailto:info@kittykingdom.com">info@kittykingdom.com</a>.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+///
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kitty Kingdom</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+    <header>
+      <h1>Kitty Kingdom</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <!-- <h2>Home</h2> -->
+        <p >Welcome to Kitty Kingdom, where all cats are royalty!</p>
+        <section>
+          <h2 style="text-align:center;">Cat Lists</h2>
+          <h3 >Things cats love:</h3>
+          <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+          </ul>
+
+          <figure>
+            <img src="./img/c.jpg" alt="A slice of lasagna on a plate.">
+            <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+          </figure>
+          <h3>Top 3 things cats hate:</h3>
+          <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+          </ol>
+          <figure>
+            <img src="img/cg2.jpg" alt="Five cats looking around a field.">
+            <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+          </figure>
+        </section>
+      </section>
+      <section id="about">
+        <h2>About Cats</h2>
+        <p>We are passionate cat lovers dedicated to promoting the well-being of all felines.</p>
+        <p>
+          <h3>History and Domestication:</h3>
+            Cats have a long history of association with humans, dating back thousands of years to ancient Egypt, where they were revered as sacred animals.
+            Domestic cats are believed to have descended from the African wildcat (Felis silvestris lybica), which was domesticated around 9,000 years ago.
+            
+            <h3>Physical Characteristics:</h3>
+            Cats come in various breeds, each with its own unique characteristics in terms of size, coat length, color, and pattern.
+            They typically have a slender body, retractable claws, keen senses (especially sight and hearing), and a flexible spine, which allows for incredible agility and acrobatics.
+            
+            <h3>Behavior:</h3>
+            Cats are known for their independent and solitary nature, but they also form strong bonds with their human companions.
+            They are crepuscular animals, meaning they are most active during dawn and dusk, but they can adapt to various schedules.
+            Cats exhibit a wide range of behaviors, including hunting, grooming, kneading (kneading with their paws), purring, and vocalizations such as meowing, purring, and hissing.
+           
+            <h3> Habitat:</h3>
+            Domestic cats can adapt to various environments, from urban apartments to rural farms.
+            They are skilled hunters and have been introduced to many parts of the world, often becoming invasive species in some ecosystems.
+            
+            <h3>Health and Care:</h3>
+            Proper nutrition, regular veterinary care, and a safe environment are essential for a cat's health and well-being.
+            Cats are obligate carnivores, meaning they require a diet rich in animal protein. Commercial cat food or a balanced homemade diet can meet their nutritional needs.
+            Regular grooming, including brushing their coat and trimming their nails, helps keep cats healthy and comfortable.
+            
+            <h3>Pop Culture and Symbolism:</h3>
+            Cats have been featured prominently in art, literature, folklore, and popular culture throughout history.
+            They are often associated with traits such as mystery, independence, curiosity, and agility.
+            In many cultures, cats are considered symbols of good luck, guardianship, and wisdom.
+        </p>
+      </section>
+
+      <section id="gallery">
+        <!-- <h2>Gallery</h2> -->
+        
+          <h2>Cat Photos</h2>
+          <!-- TODO: Add link to cat photos -->
+          <p>See more <a target="_blank" href="group-img.html">cat photos</a> in our gallery.</p>
+      
+            <!-- <img src="" alt="A cute orange cat lying on its back."></a> -->
+        
+        <div class="gallery">
+          <img src="./img/c1.jpg" alt="">
+          <img src="./img/c3.jpg" alt="">
+          <img src="./img/c2.jpg" alt="">
+          <img src="./img/c4.jpg" alt="">
+          <img src="./img/c5.jpg" alt="">
+          <img src="./img/c4.jpg" alt="">
+       
+        </div>
+      </section>
+      
+      <section id="contact">
+        <h2>Cat Form</h2>
+          <form action="">
+            <fieldset>
+              <legend>Is your cat an indoor or outdoor cat?</legend>
+              <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+              <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+            </fieldset>
+
+            <fieldset>
+              <legend>What's your cat's personality?</legend>
+              <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+              <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+              <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+            </fieldset><br>
+            <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+            <button type="submit">Submit</button>
+          </form>
+      </section>
+    </main>
+   
+    <footer>
+      <p>&copy; 2024 Kitty Kingdom</p>
+      <p><p>For inquiries, email us at <a href="mailto:info@kittykingdom.com">info@kittykingdom.com</a>.</p>
+    </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
