@@ -37,3 +37,7 @@ If you'd like to contribute to Kitty Kingdom, feel free to fork this repository 
 
 This project is licensed under the GPL-3.0  License - see the [LICENSE](LICENSE) file for details.
 
+## Images
+![image](https://github.com/SnehalSalve/kitty-kingdom/assets/69302530/21a32c3e-9c3b-441f-adbb-ed89b198ad7e)
+
+![image](https://github.com/SnehalSalve/kitty-kingdom/assets/69302530/1cda83a2-5e07-461e-95d5-3ab87daad044)
